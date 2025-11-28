@@ -1,0 +1,58 @@
+@model FormTest.DataAccess.Models.ApplicationForm
+@using FormTest.Services.Enums
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Application Details</h2>
+
+<div>
+    <hr />
+    <dl class="row">
+        @* 1. Title *@
+        <dt class="col-sm-2">Title</dt>
+        <dd class="col-sm-10">@Model.Title</dd>
+
+        @* 2. Description *@
+        <dt class="col-sm-2">Description</dt>
+        <dd class="col-sm-10">@Model.Description</dd>
+
+        @* 3. Priority *@
+        <dt class="col-sm-2">Priority</dt>
+        <dd class="col-sm-10">
+            @if(Model.RadioChoice == 1) { <span>Option A</span> }
+            else { <span>Option B</span> }
+        </dd>
+
+        @* 4. Confirmed? *@
+        <dt class="col-sm-2">Is Confirmed?</dt>
+        <dd class="col-sm-10">
+            @(Model.IsConfirmed ? "Yes" : "No")
+        </dd>
+
+        @* 5. Category (The Enum) *@
+        <dt class="col-sm-2">Category</dt>
+        <dd class="col-sm-10">
+        @{
+            switch(Model.SelectDropdown){
+                case (int) CategoryType.CategoryX:
+                <span>Cat X</span>
+                break;
+
+                case (int) CategoryType.CategoryY:
+                <span>Cat Y</span>
+                break;
+                default:
+                <span> Undefine</span>
+                break;
+            }
+        }
+        </dd>
+    </dl>
+</div>
+
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning">Edit</a>
+    <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+</div>

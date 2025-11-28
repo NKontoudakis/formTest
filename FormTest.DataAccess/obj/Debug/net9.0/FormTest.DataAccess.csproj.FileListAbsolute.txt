@@ -1,0 +1,14 @@
+/home/nikos/vscode/dot_net/formTest/FormTest.DataAccess/bin/Debug/net9.0/FormTest.DataAccess.deps.json
+/home/nikos/vscode/dot_net/formTest/FormTest.DataAccess/bin/Debug/net9.0/FormTest.DataAccess.runtimeconfig.json
+/home/nikos/vscode/dot_net/formTest/FormTest.DataAccess/bin/Debug/net9.0/FormTest.DataAccess.dll
+/home/nikos/vscode/dot_net/formTest/FormTest.DataAccess/bin/Debug/net9.0/FormTest.DataAccess.pdb
+/home/nikos/vscode/dot_net/formTest/FormTest.DataAccess/obj/Debug/net9.0/FormTest.DataAccess.csproj.AssemblyReference.cache
+/home/nikos/vscode/dot_net/formTest/FormTest.DataAccess/obj/Debug/net9.0/FormTest.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+/home/nikos/vscode/dot_net/formTest/FormTest.DataAccess/obj/Debug/net9.0/FormTest.DataAccess.AssemblyInfoInputs.cache
+/home/nikos/vscode/dot_net/formTest/FormTest.DataAccess/obj/Debug/net9.0/FormTest.DataAccess.AssemblyInfo.cs
+/home/nikos/vscode/dot_net/formTest/FormTest.DataAccess/obj/Debug/net9.0/FormTest.DataAccess.csproj.CoreCompileInputs.cache
+/home/nikos/vscode/dot_net/formTest/FormTest.DataAccess/obj/Debug/net9.0/FormTest.DataAccess.dll
+/home/nikos/vscode/dot_net/formTest/FormTest.DataAccess/obj/Debug/net9.0/refint/FormTest.DataAccess.dll
+/home/nikos/vscode/dot_net/formTest/FormTest.DataAccess/obj/Debug/net9.0/FormTest.DataAccess.pdb
+/home/nikos/vscode/dot_net/formTest/FormTest.DataAccess/obj/Debug/net9.0/FormTest.DataAccess.genruntimeconfig.cache
+/home/nikos/vscode/dot_net/formTest/FormTest.DataAccess/obj/Debug/net9.0/ref/FormTest.DataAccess.dll

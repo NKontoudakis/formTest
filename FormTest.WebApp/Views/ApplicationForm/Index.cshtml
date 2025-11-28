@@ -1,0 +1,62 @@
+@using FormTest.Services.Enums
+
+@* 1. Define the data type this page receives *@
+@model IEnumerable<FormTest.DataAccess.Models.ApplicationForm>
+
+@{
+    ViewData["Title"] = "Forms List";
+}
+
+<h2>Submitted Applications</h2>
+
+<p>
+    @* Link to the Create page (we will build this next) *@
+    <a asp-action="Create" class="btn btn-primary">Create New Entry</a>
+</p>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Choice</th>
+            <th>Category</th>
+            <th>Confirmed?</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @* 2. Loop through every item in the list *@
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Title</td>
+                <td>
+                    @* Display text instead of raw numbers for better UX *@
+                    @if(item.RadioChoice == 1) { <span>Option A</span> }
+                    else { <span>Option B</span> }
+                </td>
+                <td>
+                   @{switch(item.SelectDropdown ){
+                    case (int) CategoryType.CategoryX:
+                    <span>Cat X</span>
+                    break;
+                    case (int) CategoryType.CategoryY:
+                    <span>Cat Y </span>
+                    break;
+                    }
+                    }
+                </td>
+                <td>
+                    @* Checkbox logic: Show Yes/No instead of True/False *@
+                    @(item.IsConfirmed ? "Yes" : "No")
+                </td>
+                <td>
+                    @* 3. Action Links: These look like HTML but are 'Tag Helpers' *@
+                    @* They automatically build links like /ApplicationForm/Edit/5 *@
+                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-warning">Edit</a>
+                    <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-sm btn-info">View</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
