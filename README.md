@@ -71,11 +71,3 @@ The application includes a `DbSeeder` that runs on startup. You can use these ac
 | **Viewer** | *(Registered via UI)* | *(User defined)* |
 
 *(Note: Check `FormTest.WebApp/Helpers/DbSeeder.cs` if you modified the default seed credentials).*
-
-## 📸 Screenshots
-
-*(Optional: You can upload images of your Grid and Edit pages here)*
-
-## 📄 License
-
-This project is licensed under the MIT License.
