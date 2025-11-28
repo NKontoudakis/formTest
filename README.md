@@ -67,7 +67,8 @@ The application includes a `DbSeeder` that runs on startup. You can use these ac
 
 | Role | Email | Password |
 | :--- | :--- | :--- |
-| **Admin** | `admin@test.com` | `Admin123!` |
+| **Admin** | `n.kontoudakis@mainsys.eu` | `xdR5$#@!!` |
+| **Viewer** | `niko.ss@widnowslive.com` | `xdR5$#@!` |
 | **Viewer** | *(Registered via UI)* | *(User defined)* |
 
 *(Note: Check `FormTest.WebApp/Helpers/DbSeeder.cs` if you modified the default seed credentials).*
