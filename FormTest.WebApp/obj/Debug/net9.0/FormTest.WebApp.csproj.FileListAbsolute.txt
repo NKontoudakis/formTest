@@ -251,6 +251,7 @@
 /home/nikos/vscode/dot_net/formTest/FormTest.WebApp/obj/Debug/net9.0/FormTest.WebApp.MvcApplicationPartsAssemblyInfo.cache
 /home/nikos/vscode/dot_net/formTest/FormTest.WebApp/obj/Debug/net9.0/FormTest.WebApp.RazorAssemblyInfo.cache
 /home/nikos/vscode/dot_net/formTest/FormTest.WebApp/obj/Debug/net9.0/FormTest.WebApp.RazorAssemblyInfo.cs
+/home/nikos/vscode/dot_net/formTest/FormTest.WebApp/obj/Debug/net9.0/FormTest.WebApp.sourcelink.json
 /home/nikos/vscode/dot_net/formTest/FormTest.WebApp/obj/Debug/net9.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
 /home/nikos/vscode/dot_net/formTest/FormTest.WebApp/obj/Debug/net9.0/scopedcss/bundle/FormTest.WebApp.styles.css
 /home/nikos/vscode/dot_net/formTest/FormTest.WebApp/obj/Debug/net9.0/scopedcss/projectbundle/FormTest.WebApp.bundle.scp.css
@@ -395,4 +396,3 @@
 /home/nikos/vscode/dot_net/formTest/FormTest.WebApp/obj/Debug/net9.0/FormTest.WebApp.pdb
 /home/nikos/vscode/dot_net/formTest/FormTest.WebApp/obj/Debug/net9.0/FormTest.WebApp.genruntimeconfig.cache
 /home/nikos/vscode/dot_net/formTest/FormTest.WebApp/obj/Debug/net9.0/ref/FormTest.WebApp.dll
-/home/nikos/vscode/dot_net/formTest/FormTest.WebApp/obj/Debug/net9.0/FormTest.WebApp.sourcelink.json

@@ -8,9 +8,9 @@
 /home/nikos/vscode/dot_net/formTest/FormTest.Services/obj/Debug/net9.0/FormTest.Services.AssemblyInfoInputs.cache
 /home/nikos/vscode/dot_net/formTest/FormTest.Services/obj/Debug/net9.0/FormTest.Services.AssemblyInfo.cs
 /home/nikos/vscode/dot_net/formTest/FormTest.Services/obj/Debug/net9.0/FormTest.Services.csproj.CoreCompileInputs.cache
+/home/nikos/vscode/dot_net/formTest/FormTest.Services/obj/Debug/net9.0/FormTest.Services.sourcelink.json
 /home/nikos/vscode/dot_net/formTest/FormTest.Services/obj/Debug/net9.0/FormTest.8E653712.Up2Date
 /home/nikos/vscode/dot_net/formTest/FormTest.Services/obj/Debug/net9.0/FormTest.Services.dll
 /home/nikos/vscode/dot_net/formTest/FormTest.Services/obj/Debug/net9.0/refint/FormTest.Services.dll
 /home/nikos/vscode/dot_net/formTest/FormTest.Services/obj/Debug/net9.0/FormTest.Services.pdb
 /home/nikos/vscode/dot_net/formTest/FormTest.Services/obj/Debug/net9.0/ref/FormTest.Services.dll
-/home/nikos/vscode/dot_net/formTest/FormTest.Services/obj/Debug/net9.0/FormTest.Services.sourcelink.json

@@ -30,7 +30,7 @@ namespace FormTest.WebApp.Helpers
                 };
 
                 // Create the user with a specific password
-                await userManager.CreateAsync(newAdmin, "xdR5$#@!!");
+                await userManager.CreateAsync(newAdmin, "xdR5$#@!");
 
                 // Assign the "Admin" badge to this user
                 await userManager.AddToRoleAsync(newAdmin, "Admin");

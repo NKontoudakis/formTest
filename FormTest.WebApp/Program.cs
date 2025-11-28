@@ -31,6 +31,13 @@ using (var scope = app.Services.CreateScope())
     var services = scope.ServiceProvider;
     try
     {
+        // 1. GET THE DATABASE CONTEXT
+        var context = services.GetRequiredService<AppDbContext>();
+
+        // 2. APPLY MIGRATIONS AUTOMATICALLY (Creates tables if missing)
+        context.Database.Migrate();
+
+        // 3. SEED THE USERS (Now safe to run because tables exist)
         await FormTest.WebApp.Helpers.DbSeeder.SeedRolesAndAdminAsync(services);
     }
     catch (Exception ex)
