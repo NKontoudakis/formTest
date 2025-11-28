@@ -12,3 +12,4 @@
 /home/nikos/vscode/dot_net/formTest/FormTest.DataAccess/obj/Debug/net9.0/FormTest.DataAccess.pdb
 /home/nikos/vscode/dot_net/formTest/FormTest.DataAccess/obj/Debug/net9.0/FormTest.DataAccess.genruntimeconfig.cache
 /home/nikos/vscode/dot_net/formTest/FormTest.DataAccess/obj/Debug/net9.0/ref/FormTest.DataAccess.dll
+/home/nikos/vscode/dot_net/formTest/FormTest.DataAccess/obj/Debug/net9.0/FormTest.DataAccess.sourcelink.json

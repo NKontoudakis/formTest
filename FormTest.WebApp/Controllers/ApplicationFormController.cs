@@ -61,7 +61,7 @@ namespace FormTest.WebApp.Controllers
             return View(form);
         }
 
-        [Authorize(Roles = "Viewer")]
+        [Authorize(Roles = "Viewer,Admin")]
         public async Task<IActionResult> Details(int id)
         {
             // Use the service to find the form with this specific ID

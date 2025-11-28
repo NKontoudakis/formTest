@@ -395,3 +395,4 @@
 /home/nikos/vscode/dot_net/formTest/FormTest.WebApp/obj/Debug/net9.0/FormTest.WebApp.pdb
 /home/nikos/vscode/dot_net/formTest/FormTest.WebApp/obj/Debug/net9.0/FormTest.WebApp.genruntimeconfig.cache
 /home/nikos/vscode/dot_net/formTest/FormTest.WebApp/obj/Debug/net9.0/ref/FormTest.WebApp.dll
+/home/nikos/vscode/dot_net/formTest/FormTest.WebApp/obj/Debug/net9.0/FormTest.WebApp.sourcelink.json

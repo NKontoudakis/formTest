@@ -13,3 +13,4 @@
 /home/nikos/vscode/dot_net/formTest/FormTest.Services/obj/Debug/net9.0/refint/FormTest.Services.dll
 /home/nikos/vscode/dot_net/formTest/FormTest.Services/obj/Debug/net9.0/FormTest.Services.pdb
 /home/nikos/vscode/dot_net/formTest/FormTest.Services/obj/Debug/net9.0/ref/FormTest.Services.dll
+/home/nikos/vscode/dot_net/formTest/FormTest.Services/obj/Debug/net9.0/FormTest.Services.sourcelink.json

@@ -37,7 +37,7 @@ namespace FormTest.WebApp.Helpers
             }
 
             var viewerEmail = "niko.ss@windowslive.com";
-            var viewerUser = await userManager.FindByEmailAsync(adminEmail);
+            var viewerUser = await userManager.FindByEmailAsync(viewerEmail);
 
             if (viewerUser == null)
             {
