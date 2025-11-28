@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FormTest.DataAccess")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+863edd56326859926140f0701d9b557779d7aeb9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f20ab4a788149aa1af97e1f717aa5e373f04e274")]
 [assembly: System.Reflection.AssemblyProductAttribute("FormTest.DataAccess")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FormTest.DataAccess")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

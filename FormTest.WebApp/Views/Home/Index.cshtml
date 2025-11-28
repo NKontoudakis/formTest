@@ -29,7 +29,7 @@
 </style>
 
 <div class="hero-section text-center">
-    <h1 class="display-4 fw-bold">FormTest Application</h1>
+    <h1 class="display-4 fw-bold">Form demo</h1>
     <p class="lead mb-4">A secure, enterprise-grade form management system built on .NET 9.</p>
     
     @if (User.Identity.IsAuthenticated)
@@ -42,6 +42,7 @@
     else
     {
         <p>Please log in to manage applications.</p>
+        <p>admin credentials: n.kontoudakis@mainsys.eu, xdR5...</p>
         <div class="d-flex justify-content-center gap-3">
             <a href="/Identity/Account/Login" class="btn btn-light btn-lg fw-bold px-4">Log In</a>
             <a href="/Identity/Account/Register" class="btn btn-outline-light btn-lg px-4">Register</a>
